@@ -14,13 +14,15 @@
         android:id="@+id/binding_textview"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:onClick="bindTextView"
         android:text="@string/normal"
-        android:onClick="bindTextView"/>
+        android:textAllCaps="false" />
 
     <Button
         android:id="@+id/binding_listview"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:onClick="bindListView"
         android:text="@string/list"
-        android:onClick="bindListView"/>
+        android:textAllCaps="false" />
 </LinearLayout>

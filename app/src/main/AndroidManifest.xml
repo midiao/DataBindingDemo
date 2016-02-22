@@ -15,7 +15,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".BindTextViewActivity" />
-        <activity android:name=".BindListViewActivity" />
+        <activity android:name=".BindRecyclerViewActivity" />
     </application>
 
 </manifest>
